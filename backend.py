@@ -1,7 +1,3 @@
-"""
-Backend: Groq API Integration
-Fast, free, and actually works
-"""
 import os
 from groq import Groq
 

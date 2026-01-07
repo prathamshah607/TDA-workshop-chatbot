@@ -1,6 +1,3 @@
-"""
-TDA Chatbot - Simple & Clean
-"""
 import streamlit as st
 from backend import ChatBackend
 import os
@@ -9,11 +6,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 st.set_page_config(
-    page_title="TDA Chatbot",
+    page_title="Your own LLM Chatbot",
     layout="centered"
 )
 
-# Initialize session
+# Initialize
 if 'messages' not in st.session_state:
     st.session_state.messages = []
 
